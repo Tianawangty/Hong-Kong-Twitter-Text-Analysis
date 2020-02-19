@@ -43,9 +43,9 @@ df$source <- substr(df$source, regexpr('>', df$source) + 1,
 #
 ############################################################
 
-# becuase the protest attracted international attentions, tweets are writtern
+# becuase the protest attracted international attentions, tweets are written 
 # in various language. To keep to this presentation simple, I will keep tweets 
-# that writtern in English. Here, I used "tidyverse" package to filter "lang=en"
+# that written  in English. Here, I used "tidyverse" package to filter "lang=en"
 
 # install.package("tidyverse")
 library(tidyverse)
