@@ -25,7 +25,7 @@ library(stm)
 #
 ###########################################################
 
-jun_anti_senti <- read_csv("~/TW/Proposal/Election/Maine/Analysis/jun_anti_senti.csv", 
+jun_anti_senti <- read_csv("Dara/jun_anti_senti.csv", 
                              col_types = cols(status_id = col_character(), 
                                               user_id = col_character()))
 jun_anti_senti$X1 <- NULL
