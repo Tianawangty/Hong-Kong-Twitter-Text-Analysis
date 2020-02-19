@@ -12,7 +12,7 @@ The protest occurred on the street in New Territories, the Kowloon Peninsula, Ho
 Given the background above, the purpose of this research is to restore the 2019 Hong Kong protests by analyzing data collected from Twitter. Because the protest has lasted for five months, this paper addresses two significant turning points that happened during the period of Anti-extradition bill to illustrate the sentiment changes of the protestors over time. This paper is an exploratory analysis of the series of protests by using STM topic modeling algorithms. The paper analyzes how the protesters acted and present a summary of their main demands and opinions. The paper could identify the multiple subjects of each period and the tactics used by the tweet users to better understand the situation.
 
 ## 4. GitHub Repository Illustration 
-The code section illustrates the process of data preprocessing and text analysis. The analysis includes Documents-Features-Matrix (DFM) using Quanteda, sentiments analysis using sentimentr, and topic modeling using STM.
+The code section illustrates the process of data preprocessing and text analysis. The analysis includes Documents-Features-Matrix (DFM) using Quanteda, sentiments analysis using VADER sentiment analysis package in Python, and topic modeling using STM.
 
 ## 5. Disclaimer
 The purpose of this Github repository is to give an example showing a general workflow of text analysis and how STM model could be used in text analysis. The data given in this Github repository are scraped from Twitter API and is only the data from late June 2019 for illustration purpose. The data here is not the data source for the original research paper. All the materials here shall not be used in any other purpose.
